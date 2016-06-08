@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task1</title>
+        <link href="style.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <div id="educational_level_menu">
+                <div id="sub-left">
+                    <div class="centered">
+                        <select id="academic_degree_select" onchange="selectEducationalLevel()">
+                          <option value="" disabled selected>освітній рівень</option>
+                          <option value="0">бакалавр</option>
+                          <option value="1">спеціаліст</option>
+                          <option value="2">магістр</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="sub-right">
+                    <div class="centered">
+                        <input id="year_input" type="text" maxlength="4" placeholder="рік зарахування" pattern="[0-9]{,4}">
+                    </div>
+                </div>
+            </div>
+        <hr id="hr_menu"/>
+        <div id="bach">
+            <div class="navi_course" id="bach_1">
+                <div class="button_div">
+                    <!--<input type="button" id="bach_course1" class="navi_button navi_course_button" value="I курс">-->
+                    <button id="bach_course1" class="navi_button navi_course_button">I курс</button>
+                </div>
+                <div class="button_div">
+                    <button id="bach_semester1" class="navi_button navi_semester_button">1 семестр</button>
+                    <button id="bach_semester2" class="navi_button navi_semester_button">2 семестр</button>
+                </div>
+            </div>
+            <div class="navi_course" id="bach_2">
+                <div class="button_div">
+                    <button id="bach_course2" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="bach_semester3" class="navi_button navi_semester_button">3 семестр</button>
+                    <button id="bach_semester4" class="navi_button navi_semester_button">4 семестр</button>
+                </div>
+            </div>
+            <div class="navi_course" id="bach_3">
+                <div class="button_div">
+                    <button id="bach_course3" class="navi_button navi_course_button" value="III курс"></button>
+                </div>
+                <div class="button_div">
+                    <button id="bach_semester5" class="navi_button navi_semester_button">5 семестр</button>
+                    <button id="bach_semester6" class="navi_button navi_semester_button">6 семестр</button>
+                </div>
+            </div>
+            <div class="navi_course" id="bach_4">
+                <div class="button_div">
+                    <button id="bach_course4" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="bach_semester7" class="navi_button navi_semester_button">7 семестр</button>
+                    <button id="bach_semester8" class="navi_button navi_semester_button">8 семестр</button>
+                </div>
+            </div>
+        </div>
+        <div id="spec">
+            <div class="navi_course" id="spec_1">
+                <div class="button_div">
+                    <button id="spec_course1" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="spec_semester9" class="navi_button navi_semester_button">9 семестр</button>
+                    <button id="spec_semester10" class="navi_button navi_semester_button">10 семестр</button>
+                </div>
+            </div>
+            <div class="navi_course" id="spec_2">
+                <div class="button_div">
+                    <button id="spec_course2" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="spec_semester11" class="navi_button navi_semester_button">11 семестр</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="mag">
+            <div class="navi_course" id="mag_1">
+                <div class="button_div">
+                    <button id="mag_course1" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="mag_semester9" class="navi_button navi_semester_button">9 семестр</button>
+                    <button id="mag_semester10" class="navi_button navi_semester_button">10 семестр</button>
+                </div>
+            </div>
+            <div class="navi_course" id="mag_2">
+                <div class="button_div">
+                    <button id="mag_course2" class="navi_button navi_course_button"></button>
+                </div>
+                <div class="button_div">
+                    <button id="mag_semester11" class="navi_button navi_semester_button">11 семестр</button>
+                    <button id="mag_semester12" class="navi_button navi_semester_button">12 семестр</button>
+                </div>
+            </div>
+            
+        </div>
+        <script src="task1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+#educational_level_menu { 
+    position: relative;
+    width: 600px; 
+    height: 50px;
+    padding: 5px;
+    background: #eeeeee;
+    float: none;
+   }
+
+#sub-left { 
+    float:left;
+    width: 290px; 
+    height: 40px;
+    display: flex;
+   }
+#sub-right { 
+    float:right;
+    width: 290px; 
+    height: 40px;
+    display: flex;
+   }
+
+#year_input {
+    border:1px solid #d7d7d7;
+    width: 200px;
+    height: 30px;
+}
+
+#academic_degree_select {
+    border:1px solid #d7d7d7;
+    width: 200px;
+    height: 30px;
+}
+
+.centered {
+    display: flex;
+    margin: auto;
+}
+
+#hr_menu {
+    margin: 20px 0;
+    border: 1px solid #86999f;
+    width: 800px;
+    float: none;
+}
+
+.navi_course {
+    float: none;
+    display: inline-block;
+}
+
+.button_div {
+    float: none;
+    display: flex;
+}
+
+.navi_button {
+    background-color: #eeeeee; /* Green */
+    border: none;
+    color: #919bac;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navi_course_button {
+     width:  170px;
+     height: 50px;
+     font-size: 12px;
+     text-align: center;
+}
+
+.navi_semester_button {
+     width:  75px;
+     height: 30px;
+     font-size: 12px;
+     text-align: center;
+}
+
+
