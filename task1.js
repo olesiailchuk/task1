@@ -85,6 +85,7 @@ function borderCours() {
     $(this).css({
         'border-bottom': 'solid medium #abb3c0'
     });
+	$("#out").html("");
 }
 
 $('.navi_semester_button').click(borderSemester);
