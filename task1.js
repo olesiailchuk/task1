@@ -1,4 +1,5 @@
 function selectEducationalLevel() {
+	
     var e = document.getElementById("academic_degree_select");
     var text = e.options[e.selectedIndex].text ;
     if (e.options[e.selectedIndex].value == '0') {
@@ -41,6 +42,7 @@ function selectEducationalLevel() {
         nextYear = nextYear + 1;
         document.getElementById('mag_course2').innerHTML =  "VI курс " + "<br>" + firstYear + " - " + nextYear + "н.р."; 
     }
+	$("#out").html("");
 }
 
 $( document ).ready(function() {
