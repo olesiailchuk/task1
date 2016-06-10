@@ -69,6 +69,7 @@ function borderSemester() {
     $(lastClickedCourse).css({
         'border-bottom': 'solid medium #abb3c0'
     });
+	$("#out").html($(this).html());
 }
 
 function borderCours() {

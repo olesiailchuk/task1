@@ -29,7 +29,7 @@
                 </div>
                 <div id="sub-right">
                     <div class="centered">
-                        <input id="year_input" type="text" maxlength="4" placeholder="рік зарахування" pattern="[0-9]{,4}">
+                        <input id="year_input" type="text" maxlength="4" placeholder="рік зарахування" oninput="selectEducationalLevel()">
                     </div>
                 </div>
             </div>
@@ -114,6 +114,7 @@
             </div>
             
         </div>
+		<div id="out"></div>
         <script src="task1.js"></script>
     </body>
 </html>
